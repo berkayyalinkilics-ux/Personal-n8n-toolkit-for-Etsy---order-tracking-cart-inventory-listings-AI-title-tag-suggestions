@@ -30,10 +30,17 @@ This project contains n8n workflows designed for personal use to manage my Etsy 
 ## 📡 Etsy API Usage
 
 This project uses the following Etsy API scopes:
-- `transactions_r` - Read order/transaction data
 - `listings_r` - Read shop listings
-- `listings_w` - Update listings (titles, tags, inventory)
+- `listings_w` - Create and update listings (upload new products with images, titles, tags, descriptions)
+- `listings_d` - Delete listings when needed
+- `transactions_r` - Read order/transaction data
 - `shops_r` - Read shop information
+
+### Primary Use Cases:
+- **Upload new product listings** with images, titles, tags, and descriptions
+- Track and manage orders
+- Update inventory and listing details
+- Optimize listings with AI-suggested titles and tags
 
 ## 🚀 Setup
 
